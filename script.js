@@ -133,7 +133,10 @@ function showQuestion() {
   const optionsEl = document.createElement('ul');
   optionsEl.className = 'options';
 
-  q.options.forEach(opt => {
+  // ★ 選択肢をランダムに表示
+  const shuffledOptions = shuffleArray(q.options);
+
+  shuffledOptions.forEach(opt => {
     const li = document.createElement('li');
     const btn = document.createElement('button');
     btn.textContent = opt.text;
