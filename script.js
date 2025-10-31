@@ -28,7 +28,7 @@ const otherQuestions = [
       { text: "緑豊かな柔らかい色", score: 1 },
       { text: "ビビッドで元気な色", score: 10 },
       { text: "暖色系の落ち着いた色", score: 100 },
-      { text: "鮮やかで冒険心を感じる色", score: 1000 }
+      { text: "派手やかで刺激的な色", score: 1000 }
     ]
   },
   {
@@ -37,7 +37,7 @@ const otherQuestions = [
       { text: "パンダのようにのんびり", score: 1 },
       { text: "犬のように元気に活動", score: 10 },
       { text: "猫になっておうちでくつろぐ", score: 100 },
-      { text: "タカやイルカのように自由で冒険的", score: 1000 }
+      { text: "タカになって大空を自由に飛ぶ", score: 1000 }
     ]
   },
   {
